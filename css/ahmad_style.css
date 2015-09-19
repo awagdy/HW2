@@ -1,11 +1,8 @@
 /*These are my referenced classes and ids for the html file to look for*/
-/* The color for body, blue 2879E8
-Color for the Header is 50EDFF
+/*Color for the Header is #50EDFF
 Color for the menu bar is #38ACFF*/
 
 body {
-
-	
 }
 
 header {
@@ -30,43 +27,41 @@ h2 {
 	font-weight:bold; 
 	color:#2C63FF;
 	font-size: 2em;
-	
 }
 
 p {
-	
 	font-size:1.2em;
 }
 
-li {
-	
-	display: inline;
-	padding: 14px;
-}
+/*html list formatting to be a horizontal list*/
+
 #navbar{
-	background-color: #036; 
-	width:100%;
+	background-color: #38ACFF; 
+	text-align:center; 
+	padding-right:80px;
+	Padding-left:80px;
+	border: solid 1px black;
 	overflow:hidden;
+}
+ul#menuitems { 
+	margin: .5cm; 
 }
 
-#menuitems {
-	overflow:hidden;
-	display:block; 
-	font-weight:bold;
+#menuitems li { 
+	padding:40px; 
+	display:inline; 
+	font-weight:bold; 
 	text-align:center; 
-	font-variant:small-caps;
-	padding:8px; 
-	background-color:#38ACFF;
-	margin: 0 auto;
-	
+	font-size:1.15em;
 }
+
+/* Page Formatting*/
 
 #leftside{
 	float:left;
 	width:20%;
 	overflow:hidden;
 	padding:14px;
-
 }
 
 #rightside{	
@@ -77,13 +72,7 @@ li {
 	padding:10px;
 }
 
-
-
-
-
-
 /*Photo formatting*/
-
 
 .borders {
 	background: black;
@@ -93,11 +82,31 @@ li {
 	margin-top: 5px;
 	margin-bottom: 10px;	
 }
-
-figcaption {
-	text-align:center;
+/*photo caption formatting*/
+#b{
 	font-weight:bold;
-	
-	
+	text-align:center;
 }
 
+/*Resume Formatting*/
+
+#resume {
+	width:80%; 
+	margin:0 auto; 
+	padding:30px; 
+	text-align:left; 
+	font-size:1.2em;
+}
+
+#content_header{
+	
+	font-size:2em;
+	padding:20px;
+	padding-left:0px
+}
+
+#positionBold {
+	font-weight:bold;
+	padding:5px;
+	padding-left:0px
+}
